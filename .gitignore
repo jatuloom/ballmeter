@@ -2,4 +2,3 @@ node_modules/
 dist/
 certs/
 *.pem
-mkcert_install_init.sh
