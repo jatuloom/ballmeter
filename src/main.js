@@ -57,7 +57,7 @@ window.addEventListener('hashchange', route);
 
 // Register service worker
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').catch(() => {});
+  navigator.serviceWorker.register(import.meta.env.BASE_URL + 'sw.js').catch(() => {});
 }
 
 route();
