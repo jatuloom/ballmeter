@@ -1,0 +1,19 @@
+{
+  "name": "ballmeter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "idb-keyval": "^6.2.1",
+    "pako": "^2.1.0",
+    "qrcode": "^1.5.4"
+  }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="32" fill="#0f172a"/>
+  <circle cx="96" cy="80" r="36" fill="none" stroke="#f1f5f9" stroke-width="4"/>
+  <!-- Baseball seam lines -->
+  <path d="M72 65 C80 75, 80 85, 72 95" fill="none" stroke="#e94560" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M120 65 C112 75, 112 85, 120 95" fill="none" stroke="#e94560" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Trajectory arc -->
+  <path d="M60 130 Q96 50 155 120" fill="none" stroke="#e94560" stroke-width="3" stroke-dasharray="6 4" opacity="0.8"/>
+  <!-- Speed lines -->
+  <line x1="40" y1="128" x2="55" y2="128" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="35" y1="136" x2="52" y2="136" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="96" y="165" text-anchor="middle" fill="#f1f5f9" font-family="sans-serif" font-size="18" font-weight="700">ballMeter</text>
+</svg>

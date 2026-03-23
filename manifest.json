@@ -1,0 +1,17 @@
+{
+  "name": "ballMeter",
+  "short_name": "ballMeter",
+  "description": "Baseball hit metrics using synchronized phone cameras and Pocket Radar",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#0f172a",
+  "theme_color": "#e94560",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
